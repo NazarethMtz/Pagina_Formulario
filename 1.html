@@ -1,0 +1,53 @@
+<body style="background-color:#bdecb6;">
+</body>
+<marquee style="border:#00bb2d 2px SOLID">
+<img src="logo.jpg">
+</marquee>
+
+<div align="center"><form action="ejemplo.php" method="get">
+<font face="Comic Sans MS,Arial,Verdana"size="5">
+  <b><p>Formulario de quejas de la institución</p></b>
+</font>
+</div>
+
+<div align="center"><form action="ejemplo.php" method="get">
+  <font face="Comic Sans MS,Arial,Verdana"size="4">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Apellidos: <input type="text" name="Apellidos" size="40"></p>
+  <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+  <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+  <p>
+    <p>Numero de control:
+  <input type="text" name="Num Control" size="40" placeholder="Escriba su numero de conrol">
+</p>
+    </p>
+<p>Buzón de quejas: <input type="text" name="texto" value="        "></p>
+
+<p><input type="reset" value="Borrar">
+  <script language="JavaScript">
+function pregunta(){
+    if (confirm('¿Estas seguro de enviar este formulario?')){
+       document.tuformulario.submit()
+    }
+}
+</script>
+</head>
+
+<body>
+<form name=tuformulario action="http://www.desarrolloweb.com">
+<input type=button onclick="pregunta()" value="Enviar">
+ 
+</p>
+</font>
+</div>
+</form>
+<div align="center"><form action="ejemplo.php" method="get">
+  <font face="Comic Sans MS,Arial,Verdana"size="1">
+<p>Dirección: Carretera a la estación de Rincón de Romos, Km. 1, 20670 Pabellón de Arteaga, Ags.</p>
+<P>Teléfono: 465 958 2730</P>
+<P>Tipo de institución educativa: Universidad pública</P>
+</font>
+</div>
